@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Autoloader.php">
+    <totals>
+      <lines total="184" comments="86" code="98" executable="41" executed="16" percent="39.02%"/>
+      <methods count="7" tested="1" percent="14.29%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Autoloader" start="45" executable="41" executed="16" crap="58.43">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Apix"/>
+      <method name="implode" signature="implode(array $paths)" start="58" end="61" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="register" signature="register($prepend=false)" start="70" end="87" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="load" signature="load($class)" start="95" end="112" crap="3.10" executable="9" executed="7" coverage="77.777777777778"/>
+      <method name="normalise" signature="normalise($class, $ext='.php')" start="121" end="134" crap="2" executable="9" executed="9" coverage="100"/>
+      <method name="prepend" signature="prepend($path)" start="142" end="147" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="append" signature="append($path)" start="155" end="160" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="init" signature="init(array $early=null, array $late=null, $prepend=false)" start="171" end="182" crap="12" executable="8" executed="0" coverage="0"/>
+    </class>
+    <coverage>
+      <line nr="97">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="99">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="101">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="102">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="104">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="105">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="107">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="123">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="124">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="126">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="127">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="128">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="129">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="130">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="131">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+      <line nr="133">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\NoneTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\PhpTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

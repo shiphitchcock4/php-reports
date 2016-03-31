@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/home/shippable/workspace/src/github.com/vidyar/hiro">
+    <tests>
+      <test name="Infor\Hiro\Tests\DIContainerTest::testWithString" result="0" status="PASSED"/>
+      <test name="Infor\Hiro\Tests\DIContainerTest::testWithClosure" result="0" status="PASSED"/>
+      <test name="ServiceContainerTest::testWithArgument" result="0" status="PASSED"/>
+      <test name="ServiceContainerTest::testWithCall" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/home/shippable/workspace/src/github.com/vidyar/hiro">
+      <totals>
+        <lines total="80" comments="0" code="80" executable="33" executed="32" percent="96.97%"/>
+        <methods count="6" tested="5" percent="83.33%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="3" tested="2" percent="66.67%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <directory name="src">
+        <totals>
+          <lines total="68" comments="0" code="68" executable="31" executed="30" percent="96.77%"/>
+          <methods count="5" tested="4" percent="80.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="2" tested="1" percent="50.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="DIContainer.php" href="src/DIContainer.php.xml">
+          <totals>
+            <lines total="38" comments="0" code="38" executable="14" executed="13" percent="92.86%"/>
+            <methods count="3" tested="2" percent="66.67%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="0" percent="0.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+        <file name="ServiceContainer.php" href="src/ServiceContainer.php.xml">
+          <totals>
+            <lines total="30" comments="0" code="30" executable="17" executed="17" percent="100.00%"/>
+            <methods count="2" tested="2" percent="100.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="DIContainer.php" href="src/DIContainer.php.xml">
+        <totals>
+          <lines total="38" comments="0" code="38" executable="14" executed="13" percent="92.86%"/>
+          <methods count="3" tested="2" percent="66.67%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="ServiceContainer.php" href="src/ServiceContainer.php.xml">
+        <totals>
+          <lines total="30" comments="0" code="30" executable="17" executed="17" percent="100.00%"/>
+          <methods count="2" tested="2" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <directory name="tests">
+        <totals>
+          <lines total="12" comments="0" code="12" executable="2" executed="2" percent="100.00%"/>
+          <methods count="1" tested="1" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+        <file name="Service.php" href="tests/Service.php.xml">
+          <totals>
+            <lines total="12" comments="0" code="12" executable="2" executed="2" percent="100.00%"/>
+            <methods count="1" tested="1" percent="100.00%"/>
+            <functions count="0" tested="0" percent=""/>
+            <classes count="1" tested="1" percent="100.00%"/>
+            <traits count="0" tested="0" percent=""/>
+          </totals>
+        </file>
+      </directory>
+      <file name="Service.php" href="tests/Service.php.xml">
+        <totals>
+          <lines total="12" comments="0" code="12" executable="2" executed="2" percent="100.00%"/>
+          <methods count="1" tested="1" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

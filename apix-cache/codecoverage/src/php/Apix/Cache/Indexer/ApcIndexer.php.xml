@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ApcIndexer.php">
+    <totals>
+      <lines total="106" comments="50" code="56" executable="17" executed="4" percent="23.53%"/>
+      <methods count="5" tested="2" percent="40.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ApcIndexer" start="28" executable="17" executed="4" crap="28.91">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Apix\Cache\Indexer"/>
+      <method name="__construct" signature="__construct($name, Apc $engine)" start="51" end="55" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="getAdapter" signature="getAdapter()" start="62" end="65" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="add" signature="add($elements)" start="70" end="84" crap="12" executable="10" executed="0" coverage="0"/>
+      <method name="remove" signature="remove($elements)" start="89" end="94" crap="2" executable="2" executed="0" coverage="0"/>
+      <method name="load" signature="load()" start="101" end="104" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="53">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+      </line>
+      <line nr="54">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+      </line>
+      <line nr="55">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+      </line>
+      <line nr="103">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

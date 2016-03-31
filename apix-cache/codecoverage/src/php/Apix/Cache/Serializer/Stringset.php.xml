@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Stringset.php">
+    <totals>
+      <lines total="94" comments="38" code="56" executable="21" executed="21" percent="100.00%"/>
+      <methods count="1" tested="1" percent="100.00%"/>
+      <functions count="3" tested="0" percent="0.00%"/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Stringset" start="21" executable="3" executed="3" crap="2">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Apix\Cache\Serializer"/>
+      <method name="serialize" signature="serialize($keys, $op='')" start="35" end="39" crap="2" executable="3" executed="3" coverage="100"/>
+    </class>
+    <function name="unserialize" signature="unserialize($str)" start="51" crap="0" executable="13" executed="13" coverage="0"/>
+    <function name="isSerialized" signature="isSerialized($str)" start="75" crap="0" executable="3" executed="3" coverage="0"/>
+    <function name="getDirtiness" signature="getDirtiness()" start="89" crap="0" executable="1" executed="1" coverage="0"/>
+    <coverage>
+      <line nr="37">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #3"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #4"/>
+      </line>
+      <line nr="38">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #3"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #4"/>
+      </line>
+      <line nr="39">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #2"/>
+      </line>
+      <line nr="42">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #3"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testSerialize with data set #4"/>
+      </line>
+      <line nr="53">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="54">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="55">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="56">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="57">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="58">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="59">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="60">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="62">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="63">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="65">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="67">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="69">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+      <line nr="77">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #2"/>
+      </line>
+      <line nr="78">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #2"/>
+      </line>
+      <line nr="81">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testIsSerialized with data set #2"/>
+      </line>
+      <line nr="91">
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #0"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #1"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #2"/>
+        <covered by="Apix\Cache\Serializer\StringsetTest::testUnserializer with data set #3"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

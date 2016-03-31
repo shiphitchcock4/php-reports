@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="DIContainer.php">
+    <totals>
+      <lines total="38" comments="0" code="38" executable="14" executed="13" percent="92.86%"/>
+      <methods count="3" tested="2" percent="66.67%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="DIContainer" start="5" executable="14" executed="13" crap="8.02">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Infor\Hiro"/>
+      <method name="__set" signature="__set($id, $value)" start="9" end="12" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="__get" signature="__get($id)" start="14" end="22" crap="3.07" executable="5" executed="4" coverage="80"/>
+      <method name="asShared" signature="asShared($callable)" start="24" end="37" crap="2" executable="0" executed="0" coverage="100"/>
+      <method name="anonymous function" signature="anonymous function ($c) use ($callable)" start="26" end="36" crap="2" executable="7" executed="7" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="11">
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithString"/>
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithClosure"/>
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="12">
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithString"/>
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithClosure"/>
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="16">
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithString"/>
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithClosure"/>
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="17">
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithString"/>
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithClosure"/>
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="21">
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithString"/>
+        <covered by="Infor\Hiro\Tests\DIContainerTest::testWithClosure"/>
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="22">
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="28">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="30">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="31">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="32">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="33">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="35">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="36">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

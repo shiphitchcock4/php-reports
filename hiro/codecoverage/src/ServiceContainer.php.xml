@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="ServiceContainer.php">
+    <totals>
+      <lines total="30" comments="0" code="30" executable="17" executed="17" percent="100.00%"/>
+      <methods count="2" tested="2" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="ServiceContainer" start="5" executable="17" executed="17" crap="11">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Infor\Hiro"/>
+      <method name="__construct" signature="__construct($config)" start="7" end="29" crap="6" executable="1" executed="1" coverage="100"/>
+      <method name="anonymous function" signature="anonymous function($c) use($name, $configItem)" start="9" end="27" crap="5" executable="14" executed="14" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="8">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="10">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="12">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="14">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="15">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="16">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="17">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="18">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="20">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="21">
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="22">
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="23">
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="24">
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="26">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="27">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="28">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+      <line nr="29">
+        <covered by="ServiceContainerTest::testWithArgument"/>
+        <covered by="ServiceContainerTest::testWithCall"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

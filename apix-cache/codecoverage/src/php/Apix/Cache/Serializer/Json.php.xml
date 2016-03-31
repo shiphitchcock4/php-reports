@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Json.php">
+    <totals>
+      <lines total="51" comments="23" code="28" executable="5" executed="5" percent="100.00%"/>
+      <methods count="3" tested="3" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Json" start="20" executable="5" executed="5" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Apix\Cache\Serializer"/>
+      <method name="serialize" signature="serialize($data)" start="26" end="29" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="unserialize" signature="unserialize($str)" start="34" end="37" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="isSerialized" signature="isSerialized($str)" start="42" end="49" crap="2" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #2"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testSerialize with data set #3"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #2"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #3"/>
+      </line>
+      <line nr="36">
+        <covered by="Apix\Cache\Serializer\JsonTest::testUnserialize with data set #0"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testUnserialize with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testUnserialize with data set #2"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testUnserialize with data set #3"/>
+      </line>
+      <line nr="44">
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #2"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #3"/>
+      </line>
+      <line nr="45">
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #2"/>
+      </line>
+      <line nr="48">
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #0"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #1"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #2"/>
+        <covered by="Apix\Cache\Serializer\JsonTest::testIsSerialized with data set #3"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

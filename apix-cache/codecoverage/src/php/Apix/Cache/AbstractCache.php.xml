@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="AbstractCache.php">
+    <totals>
+      <lines total="176" comments="96" code="80" executable="27" executed="11" percent="40.74%"/>
+      <methods count="11" tested="6" percent="54.55%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="AbstractCache" start="20" executable="27" executed="11" crap="69.27">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="Apix\Cache"/>
+      <method name="__construct" signature="__construct($adapter=null, array $options=null)" start="51" end="55" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="setOptions" signature="setOptions(array $options=null)" start="62" end="67" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="getOption" signature="getOption($key)" start="74" end="79" crap="6" executable="3" executed="0" coverage="0"/>
+      <method name="mapKey" signature="mapKey($key)" start="87" end="90" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="mapTag" signature="mapTag($tag)" start="98" end="101" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="sanitise" signature="sanitise($key)" start="109" end="113" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getAdapter" signature="getAdapter()" start="120" end="123" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="setSerializer" signature="setSerializer($name)" start="130" end="139" crap="6" executable="7" executed="0" coverage="0"/>
+      <method name="getSerializer" signature="getSerializer()" start="146" end="149" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="timestamp" signature="timestamp($time=null)" start="156" end="162" crap="6" executable="4" executed="0" coverage="0"/>
+      <method name="load" signature="load($key, $type='key')" start="171" end="174" crap="2" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="53">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="54">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="55">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="64">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="65">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="66">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="67">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="89">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="100">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+      </line>
+      <line nr="111">
+        <covered by="Apix\Cache\ApcTest::testComplyWithApc"/>
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfos"/>
+        <covered by="Apix\Cache\ApcTest::testGetInternalInfosReturnFalseWhenNonExistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadKeyReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testLoadTagReturnsNullWhenInexistant"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithOverlappingTags"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithTagDisabled"/>
+        <covered by="Apix\Cache\ApcTest::testClean"/>
+        <covered by="Apix\Cache\ApcTest::testDelete"/>
+        <covered by="Apix\Cache\ApcTest::testDeleteInexistantReturnsFalse"/>
+      </line>
+      <line nr="173">
+        <covered by="Apix\Cache\ApcTest::testFlushSelected"/>
+        <covered by="Apix\Cache\ApcTest::testFlushAll"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithString"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithArray"/>
+        <covered by="Apix\Cache\ApcTest::testSaveAndLoadWithObject"/>
+        <covered by="Apix\Cache\ApcTest::testSaveWithJustOneSingularTag"/>
+        <covered by="Apix\Cache\ApcTest::testSaveManyTags"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>
