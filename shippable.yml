@@ -9,4 +9,4 @@ env:
 build:
   ci: 
     - echo "$TOO"
-    
+    - echo "End of CI"
